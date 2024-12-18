@@ -71,14 +71,5 @@ namespace SannasHobbylista.ViewModels
 
         private bool CanDelete(object? parameter) => SelectedHobby != null;
 
-        //TODO: ta bort? 
-        //public async Task LoadAsync()
-        //{
-        //    if (hobbies.Any())
-        //    {
-        //        return;
-        //    }
-        //}
-
     }
 }

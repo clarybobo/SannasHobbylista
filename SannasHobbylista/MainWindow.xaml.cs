@@ -13,14 +13,8 @@ namespace SannasHobbylista
         {
             InitializeComponent();
             viewModel = new HobbyListViewModel();
-            DataContext = viewModel;
-            //Loaded += HobbyView_Loaded;
+            DataContext = viewModel;            
         }
 
-        //TODO: ta bort?? :) 
-        //private async void HobbyView_Loaded(object? sender, RoutedEventArgs e)
-        //{
-        //    await viewModel.LoadAsync();
-        //}
     }
 }

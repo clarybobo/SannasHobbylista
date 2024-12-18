@@ -5,9 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SannasHobbylista"
         mc:Ignorable="d"
-        Title="MainWindow" MinHeight="550" MinWidth="500" MaxHeight="800" MaxWidth="600" >
-    <!--<Grid>
-        <Viewbox Stretch="Uniform">-->
+        Title="MainWindow" MinHeight="550" MinWidth="500" MaxHeight="600" MaxWidth="400" >
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -56,7 +54,7 @@
                     MinWidth="200" 
                     Background="{StaticResource BackgroundColor}">
             <TextBlock HorizontalAlignment="Center" 
-                       Text="Tomtens hobbys" 
+                       Text="Hobbys" 
                        Foreground="{StaticResource ForegroundColor}" 
                        Margin="10"
                        FontWeight="Bold">
@@ -112,6 +110,4 @@
             </StackPanel>
         </StackPanel>
     </Grid>
-    <!--</Viewbox>
-    </Grid>-->
 </Window>
